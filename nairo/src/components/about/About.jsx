@@ -84,7 +84,7 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Celular: </label>
-                          <span>(+11) 97386-1696</span>
+                          <span>(11) 97386-1696</span>
                         </li>
                         <li>
                           <label>Email: </label>
@@ -116,14 +116,14 @@ const About = () => {
           {/* End .row */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
           {/* <div className="title">
@@ -133,14 +133,14 @@ const About = () => {
           {/* End Awards */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
          {/*  <div className="title">

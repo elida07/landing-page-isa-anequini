@@ -17,10 +17,10 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                    <img src="img/about/isa-anequini-about.png" alt="about" />
                   </div>
 
-                  <Social />
+                  {/* <Social /> */}
 
                   {/* End social icon */}
                 </div>
@@ -130,14 +130,14 @@ const About = () => {
           {/* End .row */}
 
           {/* separated */}
-          <div
+         {/*  <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
          {/*  <div className="title">
@@ -148,14 +148,14 @@ const About = () => {
           {/* End Awards */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
           {/* <div className="title">

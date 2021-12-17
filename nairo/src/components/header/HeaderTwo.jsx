@@ -38,7 +38,7 @@ const HeaderTwo = () => {
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
-              <Link to="/">N</Link>
+              <Link to="/">I</Link>
             </div>
           </div>
           {/* End htl-top */}
@@ -64,7 +64,7 @@ const HeaderTwo = () => {
             <li>
               <a className="nav-link" href="#resume" onClick={handleClick}>
                 <FiFileText />
-                <span className="item">Resumo</span>
+                <span className="item">Publicações</span>
               </a>
             </li>
             <li>

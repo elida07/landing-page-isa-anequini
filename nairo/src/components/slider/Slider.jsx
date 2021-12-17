@@ -2,15 +2,13 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
+  phone: "(11) 97386-1696",
+  email: "isa.anequini@gmail.com",
 };
 
 const sliderContent = {
-  name: "Nairobi Gadot",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  name: "Isa Anequini",
+  description: `Sou fisioterapeuta com + de 16 anos de experiência formada pela UNESP, mestre em Ciências da Reabilitação pela USP com especialização em Doenças Neuromusculares pela UNIFESP.`,
   btnText: " Donwload CV",
 };
 
@@ -26,7 +24,7 @@ const Slider = () => {
               {conctInfo.email}
             </a>
           </div>
-          <div className="hb-lang">
+          {/* <div className="hb-lang">
             <ul className="nav">
               <li className="active">
                 <a href="#">EN</a>
@@ -35,7 +33,7 @@ const Slider = () => {
                 <a href="#">FR</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         {/* End hp-top-fixed */}
 
@@ -43,12 +41,12 @@ const Slider = () => {
           <div className="row full-screen align-items-center">
             <div className="col-lg-7">
               <div className="type-box">
-                <h6>Hello, My name is</h6>
+                <h6>Olá, me chamo</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
                 <TextLoop>
-                  <p className="loop-text lead">Full-stack Developer</p>
-                  <p className="loop-text lead"> UI/UX Designer</p>
-                  <p className="loop-text lead"> App Developer</p>
+                  <p className="loop-text lead">Fisioterapia</p>
+                  <p className="loop-text lead">Especialização em Doenças Neuromusculares</p>
+                  <p className="loop-text lead">Conselheira Consultiva</p>
                 </TextLoop>{" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">

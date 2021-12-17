@@ -8,28 +8,27 @@ const ServiceContent = [
     delayAnimation: "",
   },
   {
-    icon: "icon-desktop",
+    icon: "icon-magnifying-glass",
     title: "Avaliações Especializadas",
     descriptions: `Avaliações Especializadas em Neuromuscular utilizando escalas internacionais (Chop Intend, Hammersmith, North Star, MFM, RULM, entre outras)`,
     delayAnimation: "200",
   },
   {
-    icon: "icon-target",
+    icon: "icon-linegraph",
     title: "Supervisão de casos clínicos ",
     descriptions: `Acompanhamento e tratamento fisioterapêutico motor`,
     delayAnimation: "400",
   },
   {
+    icon: "icon-quote",
+    title: "Consultoria",
+    descriptions: `Para tratamento fisioterapêutico neurofuncional em doenças neuromusculares`,
+    delayAnimation: "",
+  },{
     icon: "icon-target",
     title: "Treinamentos",
     descriptions: `Para profissionais fisioterapeutas`,
-    delayAnimation: "",
-  },
-  {
-    icon: "icon-target",
-    title: "Consultoria",
-    descriptions: `Para tratamento fisioterapêutico neurofuncional em doenças neuromusculares`,
-    delayAnimation: "400",
+    delayAnimation: "200",
   },
 ];
 export default function Service() {

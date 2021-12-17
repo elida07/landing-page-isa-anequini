@@ -13,7 +13,7 @@ import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeOne = () => {
   useDocumentTitle(
-    "Isa Anequini"
+    "Isa Anequini | Fisioterapeuta"
   );
   document.body.classList.add("theme-light");
   return (
@@ -27,28 +27,28 @@ const HomeOne = () => {
       <About />
       {/* End About Section */}
 
-      <Resume />
-      {/* End Resume Section */}
-
-      <section id="work" className="section theme-light dark-bg">
+      {/* <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
             <h3>My Portfolio.</h3>
           </div>
           <Portfolio />
         </div>
-      </section>
+      </section> */}
       {/* End Portfolio Section */}
 
       <section id="blog" className="section">
         <div className="container">
           <div className="title">
-            <h3>Latest Blog.</h3>
+            <h3>Vídeo-Aulas.</h3>
           </div>
           <Blog />
         </div>
       </section>
       {/* End Portfolio Section */}
+
+      <Resume />
+      {/* End Resume Section */}
 
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">
@@ -69,7 +69,7 @@ const HomeOne = () => {
               data-aos-delay="200"
             >
               <div className="contact-form">
-                <h4>Say Something</h4>
+                <h4>Fale comigo!</h4>
                 <Contact />
               </div>
             </div>

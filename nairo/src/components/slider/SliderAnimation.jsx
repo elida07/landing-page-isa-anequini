@@ -2,16 +2,14 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
+  phone: "(11) 97386-1696",
+  email: "isa.anequini@gmail.com",
 };
 
 const sliderContent = {
-  name: "Nairobi Gadot",
-  designation: "Full-stack Developer",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  name: "Isa Anequini",
+  designation: "Fisioterapeuta",
+  description: `Sou fisioterapeuta com + de 16 anos de experiência formada pela UNESP, mestre em Ciências da Reabilitação pela USP com especialização em Doenças Neuromusculares pela UNIFESP.`,
   btnText: " Donwload CV",
 };
 
@@ -27,7 +25,7 @@ const Slider = () => {
               {conctInfo.email}
             </a>
           </div>
-          <div className="hb-lang">
+          {/* <div className="hb-lang">
             <ul className="nav">
               <li className="active">
                 <a href="#">EN</a>
@@ -36,7 +34,7 @@ const Slider = () => {
                 <a href="#">FR</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         {/* End hp-top-fixed */}
 
@@ -45,7 +43,7 @@ const Slider = () => {
             <div className="col-lg-7">
               <div className="type-box">
                 <h6 data-aos="fade-up" data-aos-duration="1200">
-                  Hello, My name is
+                  Olá, me chamo
                 </h6>
                 <h1
                   className="font-alt"
@@ -61,9 +59,9 @@ const Slider = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
-                    <p className="loop-text lead">Full-stack Developer</p>
-                    <p className="loop-text lead"> UI/UX Designer</p>
-                    <p className="loop-text lead"> App Developer</p>
+                    <p className="loop-text lead">Fisioterapeuta</p>
+                    <p className="loop-text lead">Professora</p>
+                    <p className="loop-text lead">Conselheira Consultiva</p>
                   </TextLoop>
                 </div>
 
@@ -75,7 +73,7 @@ const Slider = () => {
                 >
                   {sliderContent.description}
                 </p>
-                <div
+                {/* <div
                   className="mt-4"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -88,7 +86,7 @@ const Slider = () => {
                   >
                     {sliderContent.btnText}
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -98,7 +96,7 @@ const Slider = () => {
           className="hb-me"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner.png"
+              process.env.PUBLIC_URL + "img/slider/isa-anequini.png"
             })`,
           }}
         ></div>

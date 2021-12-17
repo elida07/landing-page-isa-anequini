@@ -33,7 +33,7 @@ const Header = () => {
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
-              <Link to="/">N</Link>
+              <Link to="/">I</Link>
             </div>
           </div>
           {/* End htl-top */}
@@ -75,6 +75,20 @@ const Header = () => {
             <li>
               <a
                 className="nav-link"
+                href="#blog"
+                data-tip
+                data-for="BLOG"
+                onClick={handleClick}
+              >
+                <FaBlog />
+                <ReactTooltip id="BLOG" place="top" type="dark" effect="float">
+                  <span>Vídeo-Aulas</span>
+                </ReactTooltip>
+              </a>
+            </li>
+            <li>
+              <a
+                className="nav-link"
                 href="#resume"
                 data-tip
                 data-for="RESUME"
@@ -87,11 +101,11 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Resumo</span>
+                  <span>Publicações</span>
                 </ReactTooltip>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="nav-link"
                 href="#work"
@@ -104,21 +118,7 @@ const Header = () => {
                   <span>Trabalho</span>
                 </ReactTooltip>
               </a>
-            </li>
-            <li>
-              <a
-                className="nav-link"
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
-                <FaBlog />
-                <ReactTooltip id="BLOG" place="top" type="dark" effect="float">
-                  <span>Blog</span>
-                </ReactTooltip>
-              </a>
-            </li>
+            </li> */}
             <li>
               <a
                 className="nav-link"

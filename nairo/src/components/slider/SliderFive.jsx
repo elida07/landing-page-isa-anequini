@@ -2,10 +2,8 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const sliderContent = {
-  name: "Mark Saverin",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  name: "Isa Anequini",
+  description: `Sou fisioterapeuta com + de 16 anos de experiência formada pela UNESP, mestre em Ciências da Reabilitação pela USP com especialização em Doenças Neuromusculares pela UNIFESP.`,
   btnText: "HIRE ME",
   btnText2: "My Work",
 };
@@ -22,12 +20,12 @@ const SliderFive = () => {
           <div className="row full-screen align-items-center">
             <div className="col-md-6 order-2 order-md-1">
               <div className="type-box">
-                <h6>Hello there...</h6>
+                <h6>Olá...</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
                 <TextLoop>
-                  <p className="loop-text lead"> Content Writter</p>
-                  <p className="loop-text lead">Businessman</p>
-                  <p className="loop-text lead">Photographer</p>
+                    <p className="loop-text lead">Fisioterapeuta</p>
+                    <p className="loop-text lead">Professora</p>
+                    <p className="loop-text lead">Conselheira Consultiva</p>
                 </TextLoop>{" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="d-flex btn-wrapper">

@@ -2,10 +2,8 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const sliderContent = {
-  name: "John Smith",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  name: "Isa Anequini",
+  description: `Sou fisioterapeuta com + de 16 anos de experiência formada pela UNESP, mestre em Ciências da Reabilitação pela USP com especialização em Doenças Neuromusculares pela UNIFESP.`,
   btnText: " Donwload CV",
   btnText2: "My Work",
 };
@@ -28,7 +26,7 @@ const SliderFour = () => {
             <div className="col-lg-12">
               <div className="type-box">
                 <h6 data-aos="fade-up" data-aos-duration="1200">
-                  Hello there...
+                  Olá...
                 </h6>
                 <h1
                   className="font-alt"
@@ -45,9 +43,9 @@ const SliderFour = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
-                    <p className="loop-text lead"> Content Writter</p>
-                    <p className="loop-text lead">Youtuber</p>
-                    <p className="loop-text lead">Photographer</p>
+                    <p className="loop-text lead">Fisioterapeuta</p>
+                    <p className="loop-text lead">Professora</p>
+                    <p className="loop-text lead">Conselheira Consultiva</p>
                   </TextLoop>
                 </div>
 

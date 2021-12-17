@@ -10,7 +10,7 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+    console.log("Mensagem enviada: " + JSON.stringify(data));
   };
 
   return (
@@ -22,7 +22,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Full name"
+                placeholder="Nome Completo"
                 {...register("name", { required: true })}
               />
               {errors.name && errors.name.type === "required" && (
@@ -37,14 +37,14 @@ const Contact = () => {
               <input
                 type="email"
                 className="form-control theme-light"
-                placeholder="Email address"
+                placeholder="Endereço de Email"
                 {...register(
                   "email",
                   {
-                    required: "Email is Required",
+                    required: "Necessário por email",
                     pattern: {
                       value: /\S+@\S+\.\S+/,
-                      message: "Entered value does not match email format",
+                      message: "Valor não permitido",
                     },
                   },
                   { required: true }
@@ -62,7 +62,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Subject"
+                placeholder="Assunto"
                 {...register("subject", { required: true })}
               />
               {errors.subject && (
@@ -77,11 +77,11 @@ const Contact = () => {
               <textarea
                 rows="4"
                 className="form-control theme-light"
-                placeholder="Type comment"
+                placeholder="Mensagem"
                 {...register("comment", { required: true })}
               ></textarea>
               {errors.comment && (
-                <span className="invalid-feedback">Necessário por comentário</span>
+                <span className="invalid-feedback">Necessário por algo no corpo do email</span>
               )}
             </div>
           </div>

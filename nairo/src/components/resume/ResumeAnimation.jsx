@@ -3,63 +3,22 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
-    timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobPosition: `Guia Prático de Fisioterapia`,
+    jobType: `EDITORA ATHENEU LTDA.`,
+    timeDuraton: `...`,
+    compnayName: "Resenha do livro",
+    jobDescription: `Este livro tem como objetivo a apresentacao e o estudo de topicos direcionados para a Saúde Hospitalar Fisioterapeutica, tanto para o cuidado com os mais graves pacientes quanto para aliviar o sofrimento e agregar qualidade a vida e ao processo da morte.`,
     delayAnimation: "",
-  },
-  {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
-    timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
-    delayAnimation: "100",
-  },
-  {
-    jobPosition: `Animation Artist`,
-    jobType: `IbThemes | Remote`,
-    jobDuration: `Jan 2019 - Present`,
-    timeDuraton: `Full Time`,
-    compnayName: "IB Themes",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
-    delayAnimation: "200",
-  },
+  }
 ];
 
-const educatonContent = [
+/* const educatonContent = [
   {
     passingYear: "2018-2020",
     degreeTitle: "Ph.D in Horriblensess",
     instituteName: "University Of Evil Doing",
   },
-  {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
-  },
-  {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
-  },
-];
+]; */
 
 const Resume = () => {
   return (
@@ -67,7 +26,7 @@ const Resume = () => {
       <section id="resume" className="section">
         <div className="container">
           <div className="title">
-            <h3>Experience.</h3>
+            <h3>Publicações.</h3>
           </div>
           {/* End title */}
           <div className="resume-box">
@@ -85,7 +44,7 @@ const Resume = () => {
                       <h6>{val.jobPosition}</h6>
                       <label>{val.jobType}</label>
                       <p>{val.jobDuration}</p>
-                      <div className="rb-time">{val.timeDuraton}</div>
+                      {/* <div className="rb-time">{val.timeDuraton}</div> */}
                     </div>
                   </div>
                   <div className="col-md-8 col-xl-9">
@@ -110,7 +69,7 @@ const Resume = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Education & Skills</h3>{" "}
           </div>
 
@@ -129,19 +88,19 @@ const Resume = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
             {/* End .col */}
 
-            <div
+            {/* <div
               className="col-lg-7 ml-auto m-15px-tb"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
               <Skills />
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
         </div>
       </section>
     </>
